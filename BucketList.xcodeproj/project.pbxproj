@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC3093502C0E1F3A00124BCB /* ContentVIew-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC30934F2C0E1F3A00124BCB /* ContentVIew-ViewModel.swift */; };
+		BC5E86B72C0C3E1F0017C582 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5E86B62C0C3E1F0017C582 /* EditView.swift */; };
+		BC86360F2C0CB80E005F4E15 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC86360E2C0CB80E005F4E15 /* Result.swift */; };
+		BC94890B2C10170200A4882A /* EditView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC94890A2C10170200A4882A /* EditView-ViewModel.swift */; };
+		BCE58AFC2C08DD86008BC95E /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE58AFB2C08DD86008BC95E /* Location.swift */; };
 		BCEFED342C0066C100D31503 /* BucketListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEFED332C0066C100D31503 /* BucketListApp.swift */; };
 		BCEFED362C0066C100D31503 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEFED352C0066C100D31503 /* ContentView.swift */; };
 		BCEFED382C0066C300D31503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCEFED372C0066C300D31503 /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC30934F2C0E1F3A00124BCB /* ContentVIew-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentVIew-ViewModel.swift"; sourceTree = "<group>"; };
+		BC5E86B62C0C3E1F0017C582 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		BC86360E2C0CB80E005F4E15 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		BC94890A2C10170200A4882A /* EditView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditView-ViewModel.swift"; sourceTree = "<group>"; };
+		BCE58AFB2C08DD86008BC95E /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		BCEFED302C0066C100D31503 /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCEFED332C0066C100D31503 /* BucketListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListApp.swift; sourceTree = "<group>"; };
 		BCEFED352C0066C100D31503 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,8 +61,13 @@
 		BCEFED322C0066C100D31503 /* BucketList */ = {
 			isa = PBXGroup;
 			children = (
+				BC94890A2C10170200A4882A /* EditView-ViewModel.swift */,
+				BC30934F2C0E1F3A00124BCB /* ContentVIew-ViewModel.swift */,
+				BCE58AFB2C08DD86008BC95E /* Location.swift */,
 				BCEFED332C0066C100D31503 /* BucketListApp.swift */,
 				BCEFED352C0066C100D31503 /* ContentView.swift */,
+				BC5E86B62C0C3E1F0017C582 /* EditView.swift */,
+				BC86360E2C0CB80E005F4E15 /* Result.swift */,
 				BCEFED372C0066C300D31503 /* Assets.xcassets */,
 				BCEFED392C0066C300D31503 /* Preview Content */,
 			);
@@ -138,6 +153,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCEFED362C0066C100D31503 /* ContentView.swift in Sources */,
+				BC86360F2C0CB80E005F4E15 /* Result.swift in Sources */,
+				BCE58AFC2C08DD86008BC95E /* Location.swift in Sources */,
+				BC94890B2C10170200A4882A /* EditView-ViewModel.swift in Sources */,
+				BC3093502C0E1F3A00124BCB /* ContentVIew-ViewModel.swift in Sources */,
+				BC5E86B72C0C3E1F0017C582 /* EditView.swift in Sources */,
 				BCEFED342C0066C100D31503 /* BucketListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +295,8 @@
 				DEVELOPMENT_TEAM = 29C9BAU8B7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please authenticate yourself to unclock";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +326,8 @@
 				DEVELOPMENT_TEAM = 29C9BAU8B7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please authenticate yourself to unclock";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

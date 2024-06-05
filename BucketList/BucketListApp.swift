@@ -13,5 +13,7 @@ struct BucketListApp: App {
         WindowGroup {
             ContentView()
         }
+      
     }
+
 }
